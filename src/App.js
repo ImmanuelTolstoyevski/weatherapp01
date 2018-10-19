@@ -33,8 +33,8 @@ class App extends React.Component {
 } else {
   this.setState({
     temperature: undefined,
-    city: undefined,
-    country: undefined,
+    city: "Wrong imput",
+    country: "Wrong imput",
     humidity: undefined,
     description: undefined,
     error: "Please enter the value."
