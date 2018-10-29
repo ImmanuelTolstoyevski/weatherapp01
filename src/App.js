@@ -28,7 +28,7 @@ class App extends React.Component {
     country: data.sys.country,
     humidity: data.main.humidity,
     description: data.weather[0].description,
-    error: "please enter the value"
+    error: ""
   });
 } else {
   this.setState({
