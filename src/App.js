@@ -41,6 +41,9 @@ class App extends React.Component {
   });
 }
   }
+  function(error) {
+    appendPre(JSON.stringify(error, null, 2));
+  }
   render() {
     return (
       <div>
